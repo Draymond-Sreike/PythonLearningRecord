@@ -30,4 +30,6 @@
 #
 # func1()
 
-import time
+from time import *
+sleep(3)
+
