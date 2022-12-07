@@ -10,7 +10,11 @@
 # from ModuleTest import moduleAdd
 #
 # moduleAdd(2, 4)
-from ModuleTest import *
-print(module_num1)
-print(module_num2)
-moduleAdd(1, 2)
+# from ModuleTest import *
+# print(module_num1)
+# print(module_num2)
+# moduleAdd(1, 2)
+
+# from testPackage import packageModule1
+import testPackage.packageModule1
+testPackage.packageModule1.pmFunc()
