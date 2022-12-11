@@ -21,7 +21,7 @@ def substr(ori_str, cut_start, cut_end):
     :param cut_end: 切取字符串的起始位置（最后一个字符的位置数值上等于字符串的长度）
     :return:
     '''
-    return ori_str[cut_start-1 : cut_end+1 : 1] # 步长1也可以省略不写
+    return ori_str[cut_start-1 : cut_end : 1] # 步长1也可以省略不写
 
 
 if __name__ == '__main__':          # 输入main后直接回车可以快捷形成该语句
