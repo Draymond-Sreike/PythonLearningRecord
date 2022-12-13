@@ -21,3 +21,35 @@
 - 而json又可以反过来转换为字典或内嵌字典的列表
 
 - 关键在于**字典 **
+
+    
+
+## Python数据和Json数据的相互转化	
+
+> ![image-20221213214938453](E:\Typora\Image\image-20221213214938453.png)
+
+### 应用案例
+
+> 案例1：Python数据转json
+>
+> ![image-20221213215145712](E:\Typora\Image\image-20221213215145712.png)
+>
+> 注意到json实际上也是str类型，且出现了编码，为了解决这个编码的呈现，我们作如下改进：
+>
+> ![image-20221213215321053](E:\Typora\Image\image-20221213215321053.png)
+>
+> 此时即可输出正常结果，这是因为输出`ensure_ascii=False`表明不使用ASCII来转换，而是把内容直接输出，若为True则中文会转换为Unicode，也就是上述见到的编码。
+>
+> ![image-20221213215344394](E:\Typora\Image\image-20221213215344394.png)
+>
+> 总体案例：
+>
+> ![image-20221213215639001](E:\Typora\Image\image-20221213215639001.png)
+
+> 案例2：json转Python
+>
+> ![image-20221213215924892](E:\Typora\Image\image-20221213215924892.png)
+
+# json总结
+
+> ![image-20221213220104844](E:\Typora\Image\image-20221213220104844.png)
