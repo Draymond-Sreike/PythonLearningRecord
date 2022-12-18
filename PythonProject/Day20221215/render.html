@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="d1440827a9a84e768eda22c523135abc" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="3e1e13dcf26a4aebb1be125fe491c04e" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_d1440827a9a84e768eda22c523135abc = echarts.init(
-            document.getElementById('d1440827a9a84e768eda22c523135abc'), 'white', {renderer: 'canvas'});
-        var option_d1440827a9a84e768eda22c523135abc = {
+        var chart_3e1e13dcf26a4aebb1be125fe491c04e = echarts.init(
+            document.getElementById('3e1e13dcf26a4aebb1be125fe491c04e'), 'white', {renderer: 'canvas'});
+        var option_3e1e13dcf26a4aebb1be125fe491c04e = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -97,7 +97,12 @@
             ],
             "selected": {
                 "GDP": true
-            }
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
         }
     ],
     "tooltip": {
@@ -167,9 +172,16 @@
                 }
             }
         }
+    ],
+    "title": [
+        {
+            "text": "GDP",
+            "padding": 5,
+            "itemGap": 10
+        }
     ]
 };
-        chart_d1440827a9a84e768eda22c523135abc.setOption(option_d1440827a9a84e768eda22c523135abc);
+        chart_3e1e13dcf26a4aebb1be125fe491c04e.setOption(option_3e1e13dcf26a4aebb1be125fe491c04e);
     </script>
 </body>
 </html>
