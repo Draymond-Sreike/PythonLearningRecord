@@ -31,8 +31,13 @@
 
 > ![image-20221218233438115](E:\Typora\Image\image-20221218233438115.png)
 
-#### `set_global_opts`方法
+#### `set_global_opts`方法(标题)
 
 ![image-20221218234440950](E:\Typora\Image\image-20221218234440950.png)
 
 -  `TitleOpts`:需要导包`from pyecharts.options import TitleOpts`，
+
+- `title_opts=TitleOpts(title="GDP")`中title参数是图标题名，这里设置为GDP
+- `title_opts=TitleOpts(title="GDP", pos_left="center")`中pos_left设置标题的位置距离左边有多远，这里设置为中间
+- `title_opts=TitleOpts(title="GDP", pos_left="center", pos_bottom="1%")`中pos_bottom设置标题离底部有多远，这里设置为与底部距离为1%。
+
